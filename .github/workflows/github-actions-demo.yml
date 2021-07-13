@@ -16,3 +16,9 @@ jobs:
       - run: npm ci
       - name: Sequelize Install
         run: npm install sequelize
+      - name: Sequelize sqlite
+        run: npm install sqlite3
+      - name: Sequelize sqlite
+        run: npm install sequelize-cli
+      - name: Create empty project
+        run: npx sequelize-cli init      
