@@ -21,4 +21,4 @@ jobs:
       - name: Sequelize sqlite
         run: npm install sequelize-cli
       - name: Create empty project
-        run: npx sequelize-cli init      
+        run: npx sequelize-cli init --force      
